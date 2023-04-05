@@ -107,5 +107,10 @@ The calling code for the inputted country is then extracted from the callingCode
 The calling code is then prepended to the phone number and returned.
 
 
+#### Note:
+
+If this was a SpringBoot project, RestTemplate or WebClient would have been better alternatives for making the API call. 
+
+But since this is not a SpringBoot project, HttpURLConnection class was used instead.
 
 
