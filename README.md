@@ -1,6 +1,6 @@
 # PhoneNumberWithCountryCodeGenerator
 
-This project is my [solution]() to a HackerRank Coding challenge.
+This project is my [solution](https://github.com/Amy-Oji/PhoneNumberWithCountryCodeGenerator/blob/master/src/main/java/PhoneNumber.java) to a HackerRank Coding challenge.
 
 Here is the description of the task:
 
