@@ -42,30 +42,31 @@ If not, it is empty and the function should return '-1!
 
 If the country name is 'Nigeria', for example, 
 
-query  https;//jsonmock.hackerrank.com/api/countries?name=Nigeria. 
+query  https;//jsonmock.hackerrank.com/api/countries?name=Nigeria
 
-A portion of the country
-record for Afghanistan is:
+A portion of the country record for Nigeria looks like this:
 ```
-[
-    {
-        "name": "Nigeria",
-        "nativeName": "Nigeria",
-        "topLevelDomain": [
-        ".ng"
-        ],
-        "alpha2Code": "NG",
-        "numericCode": "566",
-        "alpha3Code": "NGA",
-        "currencies": [
-        "NGN"
-        ],
-        "callingCodes": [
-        "234"
-        ],
-        "capital": "Abuja"
-    }
-]
+{ 
+    "data": [
+        {
+            "name": "Nigeria",
+            "nativeName": "Nigeria",
+            "topLevelDomain": [
+            ".ng"
+            ],
+            "alpha2Code": "NG",
+            "numericCode": "566",
+            "alpha3Code": "NGA",
+            "currencies": [
+            "NGN"
+            ],
+            "callingCodes": [
+            "234"
+            ],
+            "capital": "Abuja"
+        }
+    ]
+}
 ```
 
 
