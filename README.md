@@ -16,8 +16,10 @@ If the data array is empty, return the string -1.
 If there are multiple calling codes, use the one at the highest index.
 
 The format of the number should be: Calling Code +  "space" + Phone Number.
-**_Example:
-+234 8012345678_**
+
+__Example:
++234 8012345678__
+
 
 The response from the API call is a JSON object with 5 fields. 
 
