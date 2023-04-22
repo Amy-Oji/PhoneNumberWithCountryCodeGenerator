@@ -25,26 +25,22 @@ The response from the API call is a JSON object with 5 fields.
 
 The essential field is data.
 
-data: Either an empty array or an array with a
+__data:__ Either an empty array or an array with a
 single object that contains the country's record.
 
 In the data array, the country has the following schema:
 
-name; The name of the country (String),
+- name; The name of the country (String),
 
-callingCodes: An array of the country's calling codes (String Array)
+- callingCodes: An array of the country's calling codes (String Array)
 
 A number of fields that are not of interest:
-page, per_page, total, total pages, etc. are not
-required for this task.
+page, per_page, total, total pages, etc. are not required for this task.
 
-If the country is found, the data array contains exactly 1 element. 
+If the country is found, the data array contains exactly 1 element. If not, it is empty and the function should return '-1!
 
-If not, it is empty and the function should return '-1!
-
-If the country name is 'Nigeria', for example, 
-
-query  https;//jsonmock.hackerrank.com/api/countries?name=Nigeria
+If the country name is 'Nigeria', for example, query  
+`https;//jsonmock.hackerrank.com/api/countries?name=Nigeria`
 
 A portion of the country record for Nigeria looks like this:
 ```
