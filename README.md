@@ -2,7 +2,7 @@
 
 This project is my [solution](https://github.com/Amy-Oji/PhoneNumberWithCountryCodeGenerator/blob/master/src/main/java/PhoneNumber.java) to a HackerRank Coding challenge.
 
-Here is the description of the task:
+### Here is the description of the task:
 
 Given a country name and a phone number, query the API
 at ```https://jsonmock.hackerrank.com/api/countries?name=country``` to get the country's calling
