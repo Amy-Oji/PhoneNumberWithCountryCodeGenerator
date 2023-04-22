@@ -30,7 +30,7 @@ single object that contains the country's record.
 
 In the data array, the country has the following schema:
 
-- name; The name of the country (String),
+- name: The name of the country (String),
 
 - callingCodes: An array of the country's calling codes (String Array)
 
