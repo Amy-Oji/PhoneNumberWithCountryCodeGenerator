@@ -68,42 +68,39 @@ A portion of the country record for Nigeria looks like this:
 ```
 
 
-Function Description 
-Write a getPhoneNumbers function in the
-editor.
+### Function Description 
 
-getPhoneNumbers should have the following parameters:
+Write a getPhoneNumbers function in the editor. The should have the following parameters:
 
-* string country: the country to query 
-* string phoneNumber: the phone number
+- string country: the country to query 
+- string phoneNumber: the phone number
 
-Returns
+__Returns__
+
 string: the completed phone number or -1
 
-Constraints
-The returned JSON object contains either 0 or 1
-record in data.
+__Constraints__
 
-The country name may contain uppercase and
-lowercase English letters and <space> (ascii 32)
+- The returned JSON object contains either 0 or 1 record in data.
+
+- The country name may contain uppercase and lowercase English letters and <space> (ascii 32)
 
 #### Sample Case
+    
 Sample Input For Custom Testing
 
-country: Nigeria
+__country:__ Nigeria
 
-phoneNumber: 8012345678
+__phoneNumber:__ 8012345678
 
-Sample Output
+#### Sample Output
 +234 8012345678
 
 #### Explanation:
 
 A call is made to the API ``` https://jsonmock.hackerrank.com/api/countries?name=Nigeria ```
 
-The calling code for the inputted country is then extracted from the callingCodes array in the API response 
-
-The calling code is then prepended to the phone number and returned.
+The calling code for the inputted country is then extracted from the callingCodes array in the API response. The calling code is then prepended to the phone number and returned.
 
 
 #### Note:
